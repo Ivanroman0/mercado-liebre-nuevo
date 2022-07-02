@@ -1,0 +1,109 @@
+/* 
+Paleta de colores
+Amarillo: #EAC926;
+Azul: #03264C;
+Celeste: #1259c3;
+Gris oscuro: #666;
+Gris claro: #ebebeb;
+Verde: #39b54a;
+*/
+
+/*
+Tipografías
+Familia: 'Roboto'
+*/
+
+/* 
+Tamaños Tipográficos
+Cuerpos de texto: 12px
+Titulares (Basado en tu última visita/Ofertas): 24px
+Precios: 18px
+Descuentos: 16px
+Descripciones: 16px
+*/
+
+/* 
+Íconos
+El departamento de diseño usó los íconos de este sitio:
+https://fontawesome.com/icons?d=gallery&m=free
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;;
+    font-size: 12px;
+}
+
+header {
+    background-color: #EAC926;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+.precio {
+    font-size: 18px;
+}
+
+.descuentos {
+    font-size: 16px;
+}
+
+.descripcion {
+    font-size: 16px;
+}
+
+/* HEADER */
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.search-bar {
+    background-color: #ebebeb;
+}
+
+.burger-menu {
+    background-color: #03264C;
+    color: #ebebeb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 6px;
+    margin: 0 auto;
+}
+
+/* FOOTER */
+
+/* footer
+El contenido de todos los artículos está centrado.
+Los íconos tienen un tamaño de 2em y un margen inferior de separación de 10
+píxeles.
+*/
+
+footer {
+    text-align: center;
+}
+
+footer h4 {
+    font-size: 16px;
+}
+
+footer i{
+    color: #03264C;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+footer p {
+    padding: 10px;
+}
